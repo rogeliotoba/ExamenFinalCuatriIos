@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5D7B191910481500D49668 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5D7B181910481500D49668 /* AudioToolbox.framework */; };
+		3A5D7B1E191049F500D49668 /* head.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5D7B1D191049F500D49668 /* head.mp3 */; };
+		3A5D7B2019104A3E00D49668 /* chest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5D7B1F19104A3E00D49668 /* chest.mp3 */; };
+		3A5D7B2219104AB000D49668 /* hand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5D7B2119104AB000D49668 /* hand.mp3 */; };
+		3A5D7B2419104B8E00D49668 /* feet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5D7B2319104B8E00D49668 /* feet.mp3 */; };
+		3A5D7B2619104C8700D49668 /* knee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5D7B2519104C8700D49668 /* knee.mp3 */; };
+		3A5D7B2819104D5800D49668 /* nose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5D7B2719104D5800D49668 /* nose.mp3 */; };
+		3A5D7B2A19104D9300D49668 /* mouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5D7B2919104D9300D49668 /* mouth.mp3 */; };
+		3A5D7B2C191061C800D49668 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5D7B2B191061C800D49668 /* CoreLocation.framework */; };
+		3A67CE7A1910369400D6DFF2 /* BodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A67CE791910369400D6DFF2 /* BodyViewController.m */; };
+		3A67CE7C191036CF00D6DFF2 /* cuerpo-humano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A67CE7B191036CF00D6DFF2 /* cuerpo-humano.jpg */; };
+		3A67CE801910383000D6DFF2 /* body-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A67CE7F1910383000D6DFF2 /* body-icon.png */; };
+		3A67CE821910398A00D6DFF2 /* cuerpo-humano-pecho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A67CE811910398A00D6DFF2 /* cuerpo-humano-pecho.jpg */; };
+		3A67CE841910399500D6DFF2 /* cuerpo-humano-boca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A67CE831910399500D6DFF2 /* cuerpo-humano-boca.jpg */; };
+		3A67CE86191039A100D6DFF2 /* cuerpo-humano-nariz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A67CE85191039A100D6DFF2 /* cuerpo-humano-nariz.jpg */; };
+		3A67CE88191039AA00D6DFF2 /* cuerpo-humano-pies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A67CE87191039AA00D6DFF2 /* cuerpo-humano-pies.jpg */; };
+		3A67CE8A191039B500D6DFF2 /* cuerpo-humano-manos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A67CE89191039B500D6DFF2 /* cuerpo-humano-manos.jpg */; };
+		3A67CE8C191039C000D6DFF2 /* cuerpo-humano-rodillas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A67CE8B191039C000D6DFF2 /* cuerpo-humano-rodillas.jpg */; };
+		3AC3BCB1190F5DF70017263D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC3BCB0190F5DF70017263D /* MapKit.framework */; };
+		3AC3BCB4190F89090017263D /* SeasonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3BCB3190F89090017263D /* SeasonsViewController.m */; };
+		3AC3BCB7190F899B0017263D /* SeasonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3BCB6190F899B0017263D /* SeasonTableViewCell.m */; };
 		3AD30E34190F25AC0081BB50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD30E33190F25AC0081BB50 /* Foundation.framework */; };
 		3AD30E36190F25AC0081BB50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD30E35190F25AC0081BB50 /* CoreGraphics.framework */; };
 		3AD30E38190F25AC0081BB50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD30E37190F25AC0081BB50 /* UIKit.framework */; };
@@ -14,14 +35,19 @@
 		3AD30E40190F25AC0081BB50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD30E3F190F25AC0081BB50 /* main.m */; };
 		3AD30E44190F25AC0081BB50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD30E43190F25AC0081BB50 /* AppDelegate.m */; };
 		3AD30E47190F25AC0081BB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD30E45190F25AC0081BB50 /* Main.storyboard */; };
-		3AD30E4A190F25AC0081BB50 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD30E49190F25AC0081BB50 /* FirstViewController.m */; };
-		3AD30E4D190F25AC0081BB50 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD30E4C190F25AC0081BB50 /* SecondViewController.m */; };
 		3AD30E4F190F25AC0081BB50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD30E4E190F25AC0081BB50 /* Images.xcassets */; };
 		3AD30E56190F25AC0081BB50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD30E55190F25AC0081BB50 /* XCTest.framework */; };
 		3AD30E57190F25AC0081BB50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD30E33190F25AC0081BB50 /* Foundation.framework */; };
 		3AD30E58190F25AC0081BB50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD30E37190F25AC0081BB50 /* UIKit.framework */; };
 		3AD30E60190F25AC0081BB50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AD30E5E190F25AC0081BB50 /* InfoPlist.strings */; };
 		3AD30E62190F25AC0081BB50 /* ExamenFinalCuatroIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD30E61190F25AC0081BB50 /* ExamenFinalCuatroIosTests.m */; };
+		3AD30E6D190F28530081BB50 /* colors-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD30E6C190F28530081BB50 /* colors-icon.png */; };
+		3AD30E70190F2BD40081BB50 /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD30E6F190F2BD40081BB50 /* ColorsViewController.m */; };
+		3AD30E72190F2DAC0081BB50 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD30E71190F2DAC0081BB50 /* red.png */; };
+		3AD30E74190F2E390081BB50 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD30E73190F2E390081BB50 /* green.png */; };
+		3AD30E76190F37000081BB50 /* mexico-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD30E75190F37000081BB50 /* mexico-icon.png */; };
+		3AD30E78190F377D0081BB50 /* mexico-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD30E77190F377D0081BB50 /* mexico-map.png */; };
+		3AD30E7B190F38C20081BB50 /* StatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD30E7A190F38C20081BB50 /* StatesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A5D7B181910481500D49668 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3A5D7B1D191049F500D49668 /* head.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = head.mp3; sourceTree = "<group>"; };
+		3A5D7B1F19104A3E00D49668 /* chest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chest.mp3; sourceTree = "<group>"; };
+		3A5D7B2119104AB000D49668 /* hand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hand.mp3; sourceTree = "<group>"; };
+		3A5D7B2319104B8E00D49668 /* feet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = feet.mp3; sourceTree = "<group>"; };
+		3A5D7B2519104C8700D49668 /* knee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knee.mp3; sourceTree = "<group>"; };
+		3A5D7B2719104D5800D49668 /* nose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nose.mp3; sourceTree = "<group>"; };
+		3A5D7B2919104D9300D49668 /* mouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mouth.mp3; sourceTree = "<group>"; };
+		3A5D7B2B191061C800D49668 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3A67CE781910369400D6DFF2 /* BodyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyViewController.h; sourceTree = "<group>"; };
+		3A67CE791910369400D6DFF2 /* BodyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyViewController.m; sourceTree = "<group>"; };
+		3A67CE7B191036CF00D6DFF2 /* cuerpo-humano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cuerpo-humano.jpg"; sourceTree = "<group>"; };
+		3A67CE7F1910383000D6DFF2 /* body-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "body-icon.png"; sourceTree = "<group>"; };
+		3A67CE811910398A00D6DFF2 /* cuerpo-humano-pecho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cuerpo-humano-pecho.jpg"; sourceTree = "<group>"; };
+		3A67CE831910399500D6DFF2 /* cuerpo-humano-boca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cuerpo-humano-boca.jpg"; sourceTree = "<group>"; };
+		3A67CE85191039A100D6DFF2 /* cuerpo-humano-nariz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cuerpo-humano-nariz.jpg"; sourceTree = "<group>"; };
+		3A67CE87191039AA00D6DFF2 /* cuerpo-humano-pies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cuerpo-humano-pies.jpg"; sourceTree = "<group>"; };
+		3A67CE89191039B500D6DFF2 /* cuerpo-humano-manos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cuerpo-humano-manos.jpg"; sourceTree = "<group>"; };
+		3A67CE8B191039C000D6DFF2 /* cuerpo-humano-rodillas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cuerpo-humano-rodillas.jpg"; sourceTree = "<group>"; };
+		3AC3BCB0190F5DF70017263D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3AC3BCB2190F89090017263D /* SeasonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeasonsViewController.h; sourceTree = "<group>"; };
+		3AC3BCB3190F89090017263D /* SeasonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeasonsViewController.m; sourceTree = "<group>"; };
+		3AC3BCB5190F899B0017263D /* SeasonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeasonTableViewCell.h; sourceTree = "<group>"; };
+		3AC3BCB6190F899B0017263D /* SeasonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeasonTableViewCell.m; sourceTree = "<group>"; };
 		3AD30E30190F25AC0081BB50 /* ExamenFinalCuatroIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenFinalCuatroIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD30E33190F25AC0081BB50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3AD30E35190F25AC0081BB50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +96,21 @@
 		3AD30E42190F25AC0081BB50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AD30E43190F25AC0081BB50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3AD30E46190F25AC0081BB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3AD30E48190F25AC0081BB50 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		3AD30E49190F25AC0081BB50 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3AD30E4B190F25AC0081BB50 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3AD30E4C190F25AC0081BB50 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3AD30E4E190F25AC0081BB50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3AD30E54190F25AC0081BB50 /* ExamenFinalCuatroIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenFinalCuatroIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD30E55190F25AC0081BB50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3AD30E5D190F25AC0081BB50 /* ExamenFinalCuatroIosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExamenFinalCuatroIosTests-Info.plist"; sourceTree = "<group>"; };
 		3AD30E5F190F25AC0081BB50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3AD30E61190F25AC0081BB50 /* ExamenFinalCuatroIosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamenFinalCuatroIosTests.m; sourceTree = "<group>"; };
+		3AD30E6C190F28530081BB50 /* colors-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colors-icon.png"; sourceTree = "<group>"; };
+		3AD30E6E190F2BD40081BB50 /* ColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		3AD30E6F190F2BD40081BB50 /* ColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
+		3AD30E71190F2DAC0081BB50 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		3AD30E73190F2E390081BB50 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		3AD30E75190F37000081BB50 /* mexico-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mexico-icon.png"; sourceTree = "<group>"; };
+		3AD30E77190F377D0081BB50 /* mexico-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mexico-map.png"; sourceTree = "<group>"; };
+		3AD30E79190F38C20081BB50 /* StatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatesViewController.h; sourceTree = "<group>"; };
+		3AD30E7A190F38C20081BB50 /* StatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +118,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5D7B2C191061C800D49668 /* CoreLocation.framework in Frameworks */,
+				3A5D7B191910481500D49668 /* AudioToolbox.framework in Frameworks */,
+				3AC3BCB1190F5DF70017263D /* MapKit.framework in Frameworks */,
 				3AD30E36190F25AC0081BB50 /* CoreGraphics.framework in Frameworks */,
 				3AD30E38190F25AC0081BB50 /* UIKit.framework in Frameworks */,
 				3AD30E34190F25AC0081BB50 /* Foundation.framework in Frameworks */,
@@ -82,6 +140,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5D7B1A191049C500D49668 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A5D7B2919104D9300D49668 /* mouth.mp3 */,
+				3A5D7B2119104AB000D49668 /* hand.mp3 */,
+				3A5D7B2719104D5800D49668 /* nose.mp3 */,
+				3A5D7B1D191049F500D49668 /* head.mp3 */,
+				3A5D7B1F19104A3E00D49668 /* chest.mp3 */,
+				3A5D7B2319104B8E00D49668 /* feet.mp3 */,
+				3A5D7B2519104C8700D49668 /* knee.mp3 */,
+			);
+			name = mp3;
+			sourceTree = "<group>";
+		};
 		3AD30E27190F25AC0081BB50 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +176,9 @@
 		3AD30E32190F25AC0081BB50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A5D7B2B191061C800D49668 /* CoreLocation.framework */,
+				3A5D7B181910481500D49668 /* AudioToolbox.framework */,
+				3AC3BCB0190F5DF70017263D /* MapKit.framework */,
 				3AD30E33190F25AC0081BB50 /* Foundation.framework */,
 				3AD30E35190F25AC0081BB50 /* CoreGraphics.framework */,
 				3AD30E37190F25AC0081BB50 /* UIKit.framework */,
@@ -115,15 +190,23 @@
 		3AD30E39190F25AC0081BB50 /* ExamenFinalCuatroIos */ = {
 			isa = PBXGroup;
 			children = (
+				3A5D7B1A191049C500D49668 /* mp3 */,
+				3AD30E6E190F2BD40081BB50 /* ColorsViewController.h */,
+				3AD30E6F190F2BD40081BB50 /* ColorsViewController.m */,
+				3AD30E6B190F27C90081BB50 /* img */,
 				3AD30E42190F25AC0081BB50 /* AppDelegate.h */,
 				3AD30E43190F25AC0081BB50 /* AppDelegate.m */,
 				3AD30E45190F25AC0081BB50 /* Main.storyboard */,
-				3AD30E48190F25AC0081BB50 /* FirstViewController.h */,
-				3AD30E49190F25AC0081BB50 /* FirstViewController.m */,
-				3AD30E4B190F25AC0081BB50 /* SecondViewController.h */,
-				3AD30E4C190F25AC0081BB50 /* SecondViewController.m */,
+				3A67CE781910369400D6DFF2 /* BodyViewController.h */,
+				3A67CE791910369400D6DFF2 /* BodyViewController.m */,
+				3AC3BCB5190F899B0017263D /* SeasonTableViewCell.h */,
+				3AC3BCB6190F899B0017263D /* SeasonTableViewCell.m */,
+				3AC3BCB2190F89090017263D /* SeasonsViewController.h */,
+				3AC3BCB3190F89090017263D /* SeasonsViewController.m */,
 				3AD30E4E190F25AC0081BB50 /* Images.xcassets */,
 				3AD30E3A190F25AC0081BB50 /* Supporting Files */,
+				3AD30E79190F38C20081BB50 /* StatesViewController.h */,
+				3AD30E7A190F38C20081BB50 /* StatesViewController.m */,
 			);
 			path = ExamenFinalCuatroIos;
 			sourceTree = "<group>";
@@ -155,6 +238,26 @@
 				3AD30E5E190F25AC0081BB50 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AD30E6B190F27C90081BB50 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				3A67CE89191039B500D6DFF2 /* cuerpo-humano-manos.jpg */,
+				3A67CE87191039AA00D6DFF2 /* cuerpo-humano-pies.jpg */,
+				3A67CE8B191039C000D6DFF2 /* cuerpo-humano-rodillas.jpg */,
+				3A67CE85191039A100D6DFF2 /* cuerpo-humano-nariz.jpg */,
+				3A67CE831910399500D6DFF2 /* cuerpo-humano-boca.jpg */,
+				3A67CE811910398A00D6DFF2 /* cuerpo-humano-pecho.jpg */,
+				3A67CE7F1910383000D6DFF2 /* body-icon.png */,
+				3A67CE7B191036CF00D6DFF2 /* cuerpo-humano.jpg */,
+				3AD30E77190F377D0081BB50 /* mexico-map.png */,
+				3AD30E75190F37000081BB50 /* mexico-icon.png */,
+				3AD30E71190F2DAC0081BB50 /* red.png */,
+				3AD30E73190F2E390081BB50 /* green.png */,
+				3AD30E6C190F28530081BB50 /* colors-icon.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +336,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5D7B2019104A3E00D49668 /* chest.mp3 in Resources */,
 				3AD30E4F190F25AC0081BB50 /* Images.xcassets in Resources */,
+				3A67CE86191039A100D6DFF2 /* cuerpo-humano-nariz.jpg in Resources */,
+				3A67CE7C191036CF00D6DFF2 /* cuerpo-humano.jpg in Resources */,
+				3A67CE8C191039C000D6DFF2 /* cuerpo-humano-rodillas.jpg in Resources */,
+				3A67CE841910399500D6DFF2 /* cuerpo-humano-boca.jpg in Resources */,
+				3A5D7B2419104B8E00D49668 /* feet.mp3 in Resources */,
+				3A67CE821910398A00D6DFF2 /* cuerpo-humano-pecho.jpg in Resources */,
+				3A67CE8A191039B500D6DFF2 /* cuerpo-humano-manos.jpg in Resources */,
+				3AD30E78190F377D0081BB50 /* mexico-map.png in Resources */,
 				3AD30E3E190F25AC0081BB50 /* InfoPlist.strings in Resources */,
+				3AD30E6D190F28530081BB50 /* colors-icon.png in Resources */,
+				3A5D7B1E191049F500D49668 /* head.mp3 in Resources */,
+				3AD30E74190F2E390081BB50 /* green.png in Resources */,
+				3AD30E72190F2DAC0081BB50 /* red.png in Resources */,
+				3A5D7B2819104D5800D49668 /* nose.mp3 in Resources */,
+				3AD30E76190F37000081BB50 /* mexico-icon.png in Resources */,
 				3AD30E47190F25AC0081BB50 /* Main.storyboard in Resources */,
+				3A67CE88191039AA00D6DFF2 /* cuerpo-humano-pies.jpg in Resources */,
+				3A5D7B2A19104D9300D49668 /* mouth.mp3 in Resources */,
+				3A5D7B2219104AB000D49668 /* hand.mp3 in Resources */,
+				3A67CE801910383000D6DFF2 /* body-icon.png in Resources */,
+				3A5D7B2619104C8700D49668 /* knee.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,10 +377,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD30E4D190F25AC0081BB50 /* SecondViewController.m in Sources */,
+				3AD30E7B190F38C20081BB50 /* StatesViewController.m in Sources */,
+				3AD30E70190F2BD40081BB50 /* ColorsViewController.m in Sources */,
 				3AD30E44190F25AC0081BB50 /* AppDelegate.m in Sources */,
-				3AD30E4A190F25AC0081BB50 /* FirstViewController.m in Sources */,
 				3AD30E40190F25AC0081BB50 /* main.m in Sources */,
+				3AC3BCB7190F899B0017263D /* SeasonTableViewCell.m in Sources */,
+				3A67CE7A1910369400D6DFF2 /* BodyViewController.m in Sources */,
+				3AC3BCB4190F89090017263D /* SeasonsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +588,7 @@
 				3AD30E67190F25AC0081BB50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AD30E68190F25AC0081BB50 /* Build configuration list for PBXNativeTarget "ExamenFinalCuatroIosTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +597,7 @@
 				3AD30E6A190F25AC0081BB50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
